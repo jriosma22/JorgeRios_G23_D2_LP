@@ -1,0 +1,56 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    background-color: rgba(66, 12, 2, 0.5);
+}
+    
+.header{
+    height: 1em;
+    padding: 4em;
+    font-size: 2em;
+    background-image: url("../imgs/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+    
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+}
+
+.bici {
+    width: 90%;
+    margin: auto;
+}
+    
+.bici td{
+    width: 50%;
+    padding: 2em;
+    font-style: italic;
+}
+    
+.bici img{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.foto_right {
+    text-align: right;
+}
+
+.footer{
+    background-color: rgb(40, 42, 46);
+    color: white;
+    text-align: right;
+    padding: 20px 20px;
+}
+
+.footer p {
+    margin: auto;
+    line-height: 2em;
+}
+
+.footer img{
+    border-radius: 6px;
+    width: 24px;
+}
